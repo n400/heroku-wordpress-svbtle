@@ -168,6 +168,17 @@ The last step is updating your WordPress installation to recognize the new domai
 If you find yourself running into problems, there is a guide posted in the Heroku Docs which can be found [here](https://devcenter.heroku.com/articles/custom-domains).
 
 
+UPDATING TO 3.8.1
+	-extract wp 3.8.1
+	-copy admin folder and all root files
+	-paste them into your site folder, replacing existing files. this will not replace your config since it has been renamed.
+	-copy everything in /includes EXCEPT pluggable.php (this has been altered for sendgrid). paste it into your site's includes file, replacing existing files as in previous step.
+	-copy content files and folders as necessary. this step will depend on whether or not you have added themes and plugins. if not, you can just replace the files contents with 3.8.1 
+	-go to wp-admin and update database
+	-request lost password to verify sendgrid still works 
+
+
+
 Licenses
 ========
 
