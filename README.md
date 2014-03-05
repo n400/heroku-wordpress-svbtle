@@ -44,6 +44,7 @@ With the [Heroku gem](http://devcenter.heroku.com/articles/heroku-command), crea
     > Git remote heroku added
     
 Rename app
+
     $ heroku apps:rename whatever-you-are-calling-your-app
 
 
