@@ -42,6 +42,10 @@ With the [Heroku gem](http://devcenter.heroku.com/articles/heroku-command), crea
     > Creating strange-turtle-1234... done, stack is cedar
     > http://strange-turtle-1234.herokuapp.com/ | git@heroku.com:strange-turtle-1234.git
     > Git remote heroku added
+    
+Rename app
+    $ heroku apps:rename whatever-you-are-calling-your-app
+
 
 Add a database to your app
 
